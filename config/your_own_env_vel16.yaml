@@ -17,16 +17,16 @@ erasor:
 
 MapUpdater:
     data_name: "bongeunsa"
-    initial_map_path: "/media/shapelim/UX960NVMe1/deep_express/bongeunsa_dataset/dense_global_map.pcd"
+    initial_map_path: "/home/l__e__i/catkin_ws/bongeunsa_dataset/dense_global_map.pcd"
     env: "outdoor"
-    save_path: "/media/shapelim/UX960NVMe1/deep_express/bongeunsa_dataset"
+    save_path: "/home/l__e__i/catkin_ws/bongeunsa_dataset"
     query_voxel_size: 0.075
     map_voxel_size: 0.075 
     voxelization_interval: 2
     removal_interval: 2
 
 # For mapgen
-data_dir: "/media/shapelim/UX960NVMe1/deep_express/bongeunsa_dataset"
+data_dir: "/home/l__e__i/catkin_ws/bongeunsa_dataset"
 voxel_size: 0.075
 init_idx: 130
 interval: 2
