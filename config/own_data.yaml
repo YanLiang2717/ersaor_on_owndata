@@ -18,9 +18,9 @@ erasor:
 
 MapUpdater:
     data_name: "lidar_motion"
-    initial_map_path: "/home/l__e__i/ToHongQ_20250226/orig_map/02_860_to_950_w_interval2_voxel_0.200000.pcd"
+    initial_map_path: "/home/l__e__i/2024-04-23-19-51-29/video0_data6751-9000jpg/02_860_to_950_w_interval2_voxel_0.200000.pcd"
     env: "outdoor"
-    save_path: "/home/l__e__i/ToHongQ_20250226"
+    save_path: "/home/l__e__i/2024-04-23-19-51-29/video0_data6751-9000jpg"
     query_voxel_size: 0.2
     map_voxel_size: 0.05 
     voxelization_interval: 5

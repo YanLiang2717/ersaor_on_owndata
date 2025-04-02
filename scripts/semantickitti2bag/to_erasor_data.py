@@ -52,7 +52,7 @@ def filter_nan_points(point_cloud):
 class PointCloudSubscriber(object):
 
     def __init__(self,args):
-        self.bag = rosbag.Bag(os.path.join("/home/l__e__i/ToHongQ_20250226", "erasor_data.bag"),'w', compression=rosbag.Compression.NONE)
+        self.bag = rosbag.Bag(os.path.join("/home/l__e__i/2024-04-23-19-51-29/video0_data6751-9000jpg", "erasor_data.bag"),'w', compression=rosbag.Compression.NONE)
         self.listener = tf.TransformListener()
         self.lidar_topic = args.lidar_topic
         self.world_frame = args.world_frame

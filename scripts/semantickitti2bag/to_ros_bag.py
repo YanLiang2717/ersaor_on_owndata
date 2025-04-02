@@ -89,7 +89,7 @@ def convert_to_bag(tf_file, pcd_folder, output_bag):
 
 if __name__ == "__main__":
     rospy.init_node("data_to_bag")
-    tf_file = "/home/l__e__i/ToHongQ_20250226/pose"  # 替换为你的 TF 文件路径
-    pcd_folder = "/home/l__e__i/ToHongQ_20250226"  # 替换为你的 PCD 文件夹路径
-    output_bag = "/home/l__e__i/ToHongQ_20250226/output.bag"  # 输出的 bag 文件路径
+    tf_file = "/home/l__e__i/2024-04-23-19-51-29/video0_data6751-9000jpg/tf.txt"  # 替换为你的 TF 文件路径
+    pcd_folder = "/home/l__e__i/2024-04-23-19-51-29/video0_data6751-9000jpg/pcd"  # 替换为你的 PCD 文件夹路径
+    output_bag = "/home/l__e__i/2024-04-23-19-51-29/video0_data6751-9000jpg/output.bag"  # 输出的 bag 文件路径
     convert_to_bag(tf_file, pcd_folder, output_bag)

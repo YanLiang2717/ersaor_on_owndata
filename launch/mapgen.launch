@@ -3,7 +3,7 @@
 <node name="kitti_mapgen" pkg="erasor" type="kitti_mapgen" output="screen">
     <rosparam param="/map/voxelsize">0.2</rosparam>		
     <rosparam param="/map/target_rosbag">"02_860_to_950_w_interval_2_node.bag"</rosparam>
-    <rosparam param="/map/save_path">"/home/l__e__i/ToHongQ_20250226/orig_map"</rosparam>
+    <rosparam param="/map/save_path">"/home/l__e__i/2024-04-23-19-51-29/video0_data6751-9000jpg"</rosparam>
     <rosparam param="/map/viz_interval">1</rosparam>
     <rosparam param="/large_scale/is_large_scale">true</rosparam>
 </node>
