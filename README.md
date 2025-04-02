@@ -11,8 +11,24 @@ Official page of [*"ERASOR: Egocentric Ratio of Pseudo Occupancy-based Dynamic O
 
 | File | Purpose | Location |
 |------|---------|----------|
-| PCD+TF→ROS Bag | Converts point clouds with TF data | [`ERASOR/scripts/semantickitti2bag/to_ros_bag.py`]|
-| ROS Bag→ERASOR Bag | Formats bag for ERASOR algorithm | [`ERASOR/scripts/semantickitti2bag/to_erasor_data.py` ]|
+| PCD+TF→ROS Bag | Converts point clouds with TF data | [`scripts/semantickitti2bag/to_ros_bag.py`]|
+| ROS Bag→ERASOR Bag | Formats bag for ERASOR algorithm | [`scripts/semantickitti2bag/to_erasor_data.py` ]|
+##📊 Results & Visualizations
+<table>
+  
+  <tbody>
+    <tr align="center">
+      <td> before </td><td> after </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td> <p align="center"><img src="img01_before.png" alt="animated" height="300" /></p> </td>
+      <td> <p align="center"><img src="img01_after.png" alt="animated" height="300" /></p> </td>
+    </tr>
+  </tbody>
+  
+</table>
 ## Citation 
 If you use our code or method in your work, please consider citing the following:
 
